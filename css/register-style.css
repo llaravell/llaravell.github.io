@@ -1,0 +1,12 @@
+body{
+    background-image: url(../images/register-background.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    height:800px;
+    background-position-x: 11px;
+}
+
+input{
+    color:white;
+}

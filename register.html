@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ثبت نام</title>
+    <link rel="stylesheet" href="./css/register-style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar-fixed" dir="ltr">
+            <div class="nav-wrapper">
+                <a href="index.html" style="top: 15px;position: fixed;" class="brand-logo">
+                    <img style="position: fixed;" class="flash animated responsive-img" src="./images/logo.png" alt="codexion" width="100" height="100">
+                </a>
+            <div class="fixed-action-btn navbar-top" dir="rtl">
+                <a class="btn-floating btn-large orange pulse animated fadeIn delay-1s">
+                    <i class="large material-icons">menu</i>
+                </a>
+                <ul id="header">
+                    <li><a href="./store.html" class="btn-floating red waves-effect waves-light" title="فروشگاه"><i class="material-icons">shop</i></a></li>
+                    <li><a href="./about.html" class="btn-floating yellow darken-1 waves-effect waves-light" title="درباره ی ما"><i class="material-icons">info</i></a></li>
+                    <li><a href="./contact.html" class="btn-floating green waves-effect waves-light" title="تماس با ما"><i class="material-icons">contact_phone</i></a></li>
+                    <li><a href="./register.html" class="btn-floating blue waves-effect waves-light" title="ثبت نام"><i class="material-icons">account_circle</i></a></li>
+                    <li><a href="./login.html" class="btn-floating orange waves-effect waves-light" title="ورود"><i class="material-icons">subdirectory_arrow_right</i></a></li>
+                    <li>
+                        <figure class="imghvr-blur btn-floating purple waves-effect waves-light" title="سبد خرید">
+                            <i class="material-icons">shopping_cart</i>
+                            <figcaption style="padding:0;" class="purple center-align orange-text text-darken-1">4</figcaption>
+                        </figure>
+                    </li>
+                    <li><a class="btn-floating cyan darken-1 waves-effect waves-light" title="جستجو"><i class="material-icons">search</i></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <!-- end navbar -->
+    <div class="col s10 xl6 l6 m6 offset-xl3 offset-l3 offset-m3 offset-s1 center-align mt animated fadeInDown slow center-align">
+        <h3 class="orange-text">ثبت نام</h3>
+        <div class="row">
+            <form class="col s10 xl6 l6 m6 offset-xl3 offset-l3 offset-m3 offset-s1">
+                <div class="row">
+                <div class="input-field col s12">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">نام</label>
+                    <span class="helper-text" data-error="لطفا نام خود را صحیح وارد نمایید" data-success="عالیه">نام خود را وارد نمایید</span>
+                </div>
+                <div class="input-field col s12">
+                    <input id="name" type="text" class="validate">
+                    <label for="name"> نام خانوادگی</label>
+                    <span class="helper-text" data-error="لطفا نام خانوادگی خود را صحیح وارد نمایید" data-success="عالیه">نام خانوادگی خود را وارد نمایید</span>
+                </div>
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">ایمیل</label>
+                    <span class="helper-text" data-error="لطفا آدرس ایمیل خود را صحیح وارد نمایید" data-success="عالیه">ایمیل خود را وارد نمایید</span>
+                </div>
+                <div class="input-field col s12">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">رمز عبور</label>
+                    <span class="helper-text" data-error="لطفا رمز عبور خود را صحیح وارد نمایید" data-success="عالیه">رمز عبور خود را وارد نمایید</span>
+                </div>
+                <div class="input-field col s12">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">تکرار رمز عبور</label>
+                    <span class="helper-text" data-error="لطفا تکرار رمز عبور خود را صحیح وارد نمایید" data-success="عالیه">تکرار رمز عبور خود را وارد نمایید</span>
+                </div>
+                <button class="btn waves-effect waves-light orange darken-1 hoverable" type="submit" name="action" style="font-family: 'iran-sans'">ثبت نام
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <!-- scripts -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="./js/materialize.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+        direction: 'left'
+    });
+  });
+    </script>
+  <!-- end script -->
+</body>
+</html>

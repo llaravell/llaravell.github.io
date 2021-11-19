@@ -1,0 +1,16 @@
+body{
+    background-image: url(../images/login-background.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position-x: 11px;
+    height: 800px;
+}
+
+input{
+    color:white;
+}
+
+.mt-1{
+    margin-top: 15px;
+}
