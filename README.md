@@ -18,6 +18,7 @@
   <a href="https://badge.fury.io/js/materialize-css">
     <img src="https://badge.fury.io/js/materialize-css.svg" alt="npm version badge">
   </a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fllaravell%2Fllaravell.github.io?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fllaravell%2Fllaravell.github.io.svg?type=shield"/></a>
   <a href="https://cdnjs.com/libraries/materialize">
     <img src="https://img.shields.io/cdnjs/v/materialize.svg" alt="CDNJS version badge">
   </a>
@@ -89,3 +90,6 @@ Check out the [CONTRIBUTING document](CONTRIBUTING.md) in the root of the reposi
 
 ## Copyright and license
 Code Copyright 2018 Materialize. Code released under the MIT license.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fllaravell%2Fllaravell.github.io.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fllaravell%2Fllaravell.github.io?ref=badge_large)
